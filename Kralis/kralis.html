@@ -1,0 +1,1623 @@
+<div>
+<b style="font-size:14px; font-weight:bold; color:red;"></b>
+<span class="sheet-table-cell" style="width:10%;"><img width="400"  style="vertical-align:middle;" alt="Legends of Karlis Logo" src="http://www.talariusgaming.com/uploads/1/9/3/1/19316177/legendsofkralistitle-2_orig.png"></span>
+&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;
+<span class="sheet-table-cell" style="width:10%;"><img width="400"  style="vertical-align:middle;" alt="image of coin purse" src="http://www.talariusgaming.com/uploads/1/9/3/1/19316177/published/newlogoconcept3-nohand_2.png"></span>
+</div>
+<table border="0" cellspacing="0" cellspacing="0" style="font-size: .95em;text-align: center;">
+        <tbody>
+            <tr><td rowspan=4 style="width: 20px;"> &nbsp; &nbsp; &nbsp; &nbsp; </td></tr>
+            <tr>
+                <td colspan=6>
+                    <table>
+                        <tr>
+                            <td colspan="2"><input type="text"  name="attr_Name" title="Name" value="Character Name" /><br />Character Name</td>
+                            <td colspan="2"><input type="text"  name="attr_Player" title="Player" value="Player Name" /><br />Player</td>
+                            <td style="width: 50px;"><input type="text"  name="attr_Philosophy" title="Philosophy" value="N" /><br />Philosophy</td>
+                            <td><input type="text"  name="attr_MeritCurrent" title="MeritCurrent" value="0" /><br />Current Merit</td>
+                            <td><input type="text"  name="attr_MeritNext" title="MeritNext" value="0" /><br />Next Level Merit</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><input type="text"  name="attr_Focus" title="Focus" value="" /><br />Focus</td>
+                            <td colspan="2"><input type="text"  name="attr_Species" title="Species" value="" /><br />Species</td>
+                            <td colspan="2"><input type="text"  name="attr_Campaign" title="Campaign" value="" /><br />Campaign</td>
+                            <td><input type="text"  name="attr_Deity" title="Deity" value="" /><br />Deity</td>
+                        </tr>
+                    </table>
+                </td>
+                <td colspan=2><div style="float: left"><img src="kralis.png" style="float: left; width: 300px;"></img> &nbsp;</div></td>
+            </tr>
+            <tr>
+              <td style="width: 80px"><input type="text"  name="attr_Level" title="Level" value="0"/><br />Level</td>
+              <td style="width: 80px"><input type="text"  name="attr_Size" title="Size" value="Medium" /><br />Size</td>
+              <td style="width: 80px"><input type="text"  name="attr_Age" title="Age" value="20" /><br />Age</td>
+              <td style="width: 80px"><input type="text"  name="attr_Gender" title="Gender" value="male" /><br />Gender</td>
+              <td style="width: 80px"><input type="text"  name="attr_Height" title="Height" value="6'" /><br />Height</td>
+              <td style="width: 80px"><input type="text"  name="attr_Weight" title="Weight" value="150lbs" /><br />Weight</td>
+              <td style="width: 80px"><input type="text"  name="attr_Eyes" title="Eyes" value="brown" /><br />Eyes</td>
+              <td style="width: 80px"><input type="text"  name="attr_Hair" title="Hair" value="brown" /><br />Hair</td>
+            </tr>
+        </tbody>
+</table>
+<table cellpadding="0" cellspacing="0" style="width: 100%">
+    <table style="float: left; width: 24%">
+        <tr style="font-size: .75em">
+            <td>Attribute</td>
+            <td>Score</td>
+            <td>Modifier</td>
+        </tr>
+        <tr>
+            <td class="sheet-statlabel">Strength (Str)</td>
+            <td><input class="sheet-inputbox" type="number"  name="attr_Str" title="Str" value="50" /></td>
+            <td style="width: 15px;"><input class="sheet-inputbox" type="text" name="attr_StrMod" title="StrMod" value="floor((@{Str}-50)/5)" disabled></td>
+        </tr>
+        <tr>
+            <td class="sheet-statlabel">Stamina (Sta)</td>
+            <td><input class="sheet-inputbox" type="number"  name="attr_Sta" title="Sta" value="50" /></td>
+            <td style="width: 15px;"><input class="sheet-inputbox" type="text" name="attr_StaMod" title="StaMod" value="floor((@{Sta}-50)/5)" disabled></td>
+        </tr>
+        <tr>
+            <td class="sheet-statlabel">Agility (Agi)</td>
+            <td><input class="sheet-inputbox" type="number"  name="attr_Agi" title="Agi" value="50" /></td>
+            <td style="width: 15px;"><input class="sheet-inputbox" type="text" name="attr_AgiMod" title="AgiMod" value="floor((@{Agi}-50)/5)" disabled></td>
+        </tr>
+        <tr>
+            <td class="sheet-statlabel">Perception (Per)</td>
+            <td><input class="sheet-inputbox" type="number"  name="attr_Per" title="Per" value="50" /></td>
+            <td style="width: 15px;"><input class="sheet-inputbox" type="text" name="attr_PerMod" title="PerMod" value="floor((@{Per}-50)/5)" disabled></td>
+        </tr>
+        <tr>
+            <td class="sheet-statlabel">Intelligence (Int)</td>
+            <td><input class="sheet-inputbox" type="number"  name="attr_Int" title="Int" value="50" /></td>
+            <td style="width: 15px;"><input class="sheet-inputbox" type="text" name="attr_IntMod" title="IntMod" value="floor((@{Int}-50)/5)" disabled></td>
+        </tr>
+        <tr>
+            <td class="sheet-statlabel">Wits (Wits)</td>
+            <td><input class="sheet-inputbox" type="number"  name="attr_Wits" title="Wits" value="50" /></td>
+            <td style="width: 15px;"><input class="sheet-inputbox" type="text" name="attr_WitsMod" title="WitsMod" value="floor((@{Wits}-50)/5)" disabled></td>
+        </tr>
+        <tr>
+			<td class="sheet-statlabel">WillPower (Will)</td>
+			<td><input class="sheet-inputbox" type="number"  name="attr_Will" title="Will" value="50" /></td>
+			<td style="width: 15px;"><input class="sheet-inputbox" type="text" name="attr_WillMod" title="WillMod" value="floor((@{Will}-50)/5)" disabled></td>
+        </tr>
+        <tr>
+			<td class="sheet-statlabel">Charisma (Chr)</td>
+			<td><input class="sheet-inputbox" type="number"  name="attr_Chr" title="Chr" value="50" /></td>
+			<td style="width: 15px;"><input class="sheet-inputbox" type="text" name="attr_ChrMod" title="ChrMod" value="floor((@{Chr}-50)/5)" disabled></td>
+        </tr>
+        <tr>
+            <td class="sheet-statlabel">Heroic Luck</td>
+			<td><input class="sheet-inputbox" type="number"  name="attr_HeroLuck" title="Luck" value="0" /></td>
+        </tr>
+    </table>
+    <table style="float: right;width: 74%;">
+        <table>
+          <tr style="font-size: .75em">
+            <td style="width:10px;"></td>
+            <td />
+            <td>Max Health</td>
+            <td />
+            <td colspan="3">Battered (1/2 Health)</td>
+            <td />
+            <td colspan="3">Beaten (1/4 Health)</td>
+            <td />
+            <td colspan="3">Current Health</td>
+            <td />
+          </tr>
+          <tr>
+            <td style="width:10px;"></td>
+            <td class="sheet-label" style="width: 60px;">Health</td>
+            <td>
+			<input type="text" name="attr_HealthMax" title="HealthMax" value="" /></td>
+            <td />
+            <td colspan="3"><input type="text" name="attr_HPHalf" title="HPHalf" value="floor(@{HealthMax}/2)" disabled></td>
+            <td />
+            <td colspan="3"><input type="text" name="attr_HPQuart" title="HPQuart" value="floor(@{HealthMax}/4)" disabled/></td>
+            <td />
+            <td colspan="3"><input type="text" name="attr_HPCurrent" title="HPCurrent" value="" /></td>
+            <td />
+          </tr>
+		  <tr style="font-size: .75em">
+			<td style="width:10px;"></td>
+			<td />
+			<td>Max Fatigue</td>
+			<td />
+			<td colspan="3">Current Fatigue</td>
+			<td />
+		  </tr>
+          <tr>
+            <td style="width:10px;"></td>
+            <td class="sheet-label" style="width: 60px;">Fatigue</td>
+            <td>
+			<input type="text" name="attr_FatigueCurrent_max" title="@{FatigueCurrent_max}" value="0" />
+			</td>
+            <td />
+            <td colspan="3"><input type="text"  name="attr_FatigeCurrent" title="FatigueCurrent" value="0" /></td>
+            <td />
+          </tr>
+
+          <tr style="height: 5px;">
+          </tr>
+        </table>
+        <table>
+            <tr style="font-size: .75em;">
+                <td style="width:10px;"></td>
+              <td></td>
+              <td style="width: 40px;">Total</td>
+              <td></td>
+              <td style="width: 15px;">Armor</td>
+              <td></td>
+              <td style="width: 15px;">Shield</td>
+              <td></td>
+              <td style="width: 15px;">Natural</td>
+              <td></td>
+              <td style="width: 30px;">Magic</td>
+              <td></td>
+              <td style="width: 30px;">Misc</td>
+          </tr>
+          <tr>
+            <td style="width:10px;"></td>
+            <td class="sheet-statlabel" style="width: 60px; font-size: 1em;"><span title="Armor" class="help">Armor</span></td>
+            <td><input type="text" style="font-weight: bold;" name="attr_Armortotal" title="Armortotal" value="@{ArmorVal}+@{ArmorShieldVal}+@{ArmorNat}+@{ArmorMagic}+@{ArmorMisc}" disabled></td>
+            <td>=</td>
+            <td><input type="number" name="attr_ArmorVal" title="ArmorVal" value="0"></td>
+            <td>+</td>
+            <td><input type="number" name="attr_ArmorShieldVal" title="ArmorShieldVal" value="0"></td>
+            <td>+</td>
+            <td><input type="number" name="attr_ArmorNat" title="ArmorNat" value="0"></td>
+            <td>+</td>
+            <td><input type="number" name="attr_ArmorMagic" title="ArmorMagic" value="0"></td>
+            <td>+</td>
+            <td><input type="number" name="attr_ArmorMisc" title="ArmorMisc" value="0"></td>
+                      </tr>
+        </table>
+        <table>
+
+        <table>
+            <tr style="font-size: .75em;">
+            <td style="width:10px;"></td>
+                <td></td>
+                <td>Total</td>
+                <td>Init Misc.</td>
+                <td>Speed</td>
+            </tr>
+            <tr>
+                <td style="width:10px;"></td>
+                <td class="sheet-label" style="width: 100px;">Initiative<button class="tokenaction" type="roll" name="attr_Initiative" title="Initiative" value="/em initiative roll: [[1d10 + @{init} &{tracker}]]"/></td>
+                <td style="width: 40px;"><input type="text" name="attr_init" title="init" value="@{AgiMod}+@{PerMod}+@{WitsMod}+@{InitMisc}" disabled></td>
+                <td><input type="number" name="attr_InitMisc" title="InitMisc" value="0"></td>
+                <td><input type="text" name="attr_speed" title="speed" value="15"></td>
+
+            </tr>
+        </table>
+
+    </table>
+</table>
+<br>
+<table style="float: right;width: 75%;" cellpadding="0" cellspacing="0">
+    <tr style="font-size: .75em;">
+        <td>Defenses</td>
+        <td></td>
+        <td>Total</td>
+        <td></td>
+        <td>Base</td>
+        <td></td>
+        <td>Attribute Mods</td>
+        <td></td>
+        <td>Focus Mod</td>
+        <td></td>
+        <td>Rank Mod</td>
+        <td></td>
+        <td>Misc. Mod</td>
+        <td>Roll It!</td>
+    </tr>
+    <tr>
+        <td class="sheet-label" style="width: 120px;">Physical Defence</td>
+        <td />
+        <td><input type="text"  name="attr_PD_Score" title="PD_Score" value="@{PDBase}+@{PDAttribute}+@{PDFocus}+@{PDRank}+@{PDMisc}" disabled /></td>
+        <td>=</td>
+        <td><input type="text"  name="attr_PDBase" title="PDBase" value="30" /></td>
+        <td>+</td>
+        <td><input type="text"  name="attr_PDAttribute" title="PDAttribute" value="@{PerMod}+@{AgiMod}" disabled /></td>
+        <td>+</td>
+        <td><input type="text"  name="attr_PDFocus" title="PDFocus" value="0"  /></td>
+        <td>+</td>
+        <td><input type="text"  name="attr_PDRank" title="PDRank" value="0"/></td>
+        <td>+</td>
+        <td><input type="text" name="attr_PDMisc" title="PDMisc" value="0"  /></td>
+        <td><button class="tokenaction" type="roll" name="attr_PDRoll" title="PDRoll" value="/roll ceil(((@{PDBase}+(floor((@{Per}-50)/5))+(floor((@{Agi}-50)/5))+@{PDFocus}+@{PDRank}+@{PDMisc}+?{modifier?|0} -1d100cs<5cf>96)/10)+.01)"/> </td>
+    </tr>
+    <tr>
+        <td class="sheet-label" style="width: 120px;">Magical Defense</td>
+        <td />
+        <td><input type="text"  name="attr_MD_Score" title="MD_Score" value="@{MDBase}+@{MDAttribute}+@{MDFocus}+@{MDRank}+@{MDMisc}" disabled /></td>
+        <td>=</td>
+        <td><input type="text"  name="attr_MDBase" title="MDBase" value="30" /></td>
+        <td>+</td>
+        <td><input type="text"  name="attr_MDAttribute" title="MDAttribute" value="@{IntMod}+@{StaMod}" disabled /></td>
+        <td>+</td>
+        <td><input type="text"  name="attr_MDFocus" title="MDFocus" value="0"  /></td>
+        <td>+</td>
+        <td><input type="text"  name="attr_MDRank" title="MDRank" value="0"/></td>
+        <td>+</td>
+        <td><input type="text" name="attr_MDMisc" title="MDMisc" value="0"  /></td>
+        <td><button class="tokenaction" type="roll" name="attr_MDRoll" title="MDRoll" value="/roll ceil(((@{MDBase}+(floor((@{Int}-50)/5))+(floor((@{Sta}-50)/5))+@{MDFocus}+@{MDRank}+@{MDMisc}+?{modifier?|0} -1d100cs<5cf>96)/10)+.01)"/></td>
+    </tr>
+    <tr>
+        <td class="sheet-label" style="width: 120px;">Divine Defense</td>
+        <td />
+        <td><input type="text"  name="attr_DD_Score" title="DD_Score" value="@{DDBase}+@{DDAttribute}+@{DDFocus}+@{DDRank}+@{DDMisc}" disabled /></td>
+        <td>=</td>
+        <td><input type="text"  name="attr_DDBase" title="DDBase" value="30" /></td>
+        <td>+</td>
+        <td><input type="text"  name="attr_DDAttribute" title="DDAttribute" value="@{WitsMod}+@{ChrMod}" disabled /></td>
+        <td>+</td>
+        <td><input type="text"  name="attr_DDFocus" title="DDFocus" value="0"  /></td>
+        <td>+</td>
+        <td><input type="text"  name="attr_DDRank" title="DDRank" value="0"/></td>
+        <td>+</td>
+        <td><input type="text" name="attr_DDMisc" title="DDMisc" value="0"  /></td>
+        <td><button class="tokenaction" type="roll" name="attr_DDRoll" title="PDRoll" value="/roll ceil(((@{DDBase}+(floor((@{Wits}-50)/5))+(floor((@{Chr}-50)/5))+@{DDFocus}+@{DDRank}+@{DDMisc}+?{modifier?|0} -1d100cs<5cf>96)/10)+.01)"/></td>
+    </tr>
+    <tr>
+        <td class="sheet-label" style="width: 120px;">Jinhu Defense</td>
+        <td />
+        <td><input type="text"  name="attr_JD_Score" title="JD_Score" value="@{JDBase}+@{JDAttribute}+@{JDFocus}+@{JDRank}+@{JDMisc}" disabled /></td>
+        <td>=</td>
+        <td><input type="text"  name="attr_JDBase" title="JDBase" value="30" /></td>
+        <td>+</td>
+        <td><input type="text"  name="attr_JDAttribute" title="JDAttribute" value="@{WillMod}+@{IntMod}" disabled /></td>
+        <td>+</td>
+        <td><input type="text"  name="attr_JDFocus" title="JDFocus" value="0"  /></td>
+        <td>+</td>
+        <td><input type="text"  name="attr_JDRank" title="JDRank" value="0"/></td>
+        <td>+</td>
+        <td><input type="text" name="attr_JDMisc" title="JDMisc" value="0"  /></td>
+        <td><button class="tokenaction" type="roll" name="attr_JDRoll" title="JDRoll" value="/roll ceil(((@{JDBase}+(floor((@{Will}-50)/5))+(floor((@{Int}-50)/5))+@{JDFocus}+@{JDRank}+@{JDMisc}+?{modifier?|0} -1d100cs<5cf>96)/10)+.01)"/></td>
+    </tr>
+</table>
+<br>
+<br><br><br><br><br>
+<div>
+    <b>Show Weapons?</b>
+        <input type="checkbox" class="sheet-pc-weapons-show" title="weapons-show" name="attr_weapons-show" value="1" style="opacity:1;width: 16px;height: 16px;position: relative;top: 0px;left: 0px;margin: 0px;cursor: pointer;z-index: 1;" checked/><span></span>
+            <div class="sheet-pc-weapons">
+                <table border="1" style="border-width: 1px 1px 1px 1px;">
+                    <tr>
+                        <td style="width: 150px;" class="sheet-label">Weapon Name</td>
+                        <td style="width: 80px;" class="sheet-statlabel">Skill Score</td>
+                        <td style="width: 60px;" class="sheet-statlabel">Base</td>
+                        <td style="width: 60px;" class="sheet-statlabel">Damage Mod</td>
+                        <td style="width: 80px;" class="sheet-statlabel">Crit Range</td>
+                        <td style="width: 80px;" class="sheet-statlabel">Reach</td>
+                        <td style="width: 80px;" class="sheet-statlabel">Armor Ignore</td>
+                        <td style="width: 300px;" class="sheet-statlabel">Other abilities</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="attr_WC1_Name" title="WC1_Name" value="WC1_Name"></td>
+                        <td><input class="sheet-inputbox" type="text" name="attr_WC1_Score" title="WC1_Score" value="30"></td>
+                        <td><input class="sheet-inputbox" type="text" name="attr_WC1_Base" title="WC1_Base" value="3"></td>
+                        <td><input class="sheet-inputbox" type="text" name="attr_WC1_Dam_Mod" title="WC1_Dam_Mod" value="0"></td>
+                        <td><input class="sheet-inputbox" type="text" name="attr_WC1_Crit_Range" title="WC1_Crit_Range" value="5"></td>
+                        <td><input class="sheet-inputbox" type="text" name="attr_WC1_Reach" title="WC1_Reach" value="0"></td>
+                        <td><input class="sheet-inputbox" type="text" name="attr_WC1_Armor_Ignore" title="WC1_Armor_Ignore" value="0"></td>
+                        <td><input class="sheet-inputbox" type="text" name="attr_WC1_Other" title="WC1_Other" value=""></td>
+                        <td><button type="roll" name="attr_wep1roll" title="wep1oll" value="/roll ceil(((@{WC1_Score}+?{modifier?|0} -1d100cs<@{WC1_Crit_Range}cf>96)/10)+.01)"></button></td>
+                    </tr>
+		    		<tr>
+                        <td><input type="text" name="attr_WC2_Name" title="WC2_Name" value="WC2_Name"></td>
+                        <td><input class="sheet-inputbox" type="text" name="attr_WC2_Score" title="WC2_Score" value="30"></td>
+                        <td><input class="sheet-inputbox" type="text" name="attr_WC2_Base" title="WC2_Base" value="3"></td>
+                        <td><input class="sheet-inputbox" type="text" name="attr_WC2_Dam_Mod" title="WC2_Dam_Mod" value="0"></td>
+                        <td><input class="sheet-inputbox" type="text" name="attr_WC2_Crit_Range" title="WC2_Crit_Range" value="5"></td>
+                        <td><input class="sheet-inputbox" type="text" name="attr_WC2_Reach" title="WC2_Reach" value="0"></td>
+                        <td><input class="sheet-inputbox" type="text" name="attr_WC2_Armor_Ignore" title="WC2_Armor_Ignore" value="0"></td>
+                        <td><input class="sheet-inputbox" type="text" name="attr_WC2_Other" title="WC2_Other" value=""></td>
+                        <td><button type="roll" name="attr_wep1roll" title="wep1oll" value="/roll ceil(((@{WC2_Score}+?{modifier?|0} -1d100cs<@{WC2_Crit_Range}cf>96)/10)+.01)"></button></td>
+                    </tr>
+		   			<tr>
+                        <td><input type="text" name="attr_WC3_Name" title="WC3_Name" value="WC3_Name"></td>
+                        <td><input class="sheet-inputbox" type="text" name="attr_WC3_Score" title="WC3_Score" value="30"></td>
+                        <td><input class="sheet-inputbox" type="text" name="attr_WC3_Base" title="WC3_Base" value="3"></td>
+                        <td><input class="sheet-inputbox" type="text" name="attr_WC3_Dam_Mod" title="WC3_Dam_Mod" value="0"></td>
+                        <td><input class="sheet-inputbox" type="text" name="attr_WC3_Crit_Range" title="WC3_Crit_Range" value="5"></td>
+                        <td><input class="sheet-inputbox" type="text" name="attr_WC3_Reach" title="WC3_Reach" value="0"></td>
+                        <td><input class="sheet-inputbox" type="text" name="attr_WC3_Armor_Ignore" title="WC3_Armor_Ignore" value="0"></td>
+                        <td><input class="sheet-inputbox" type="text" name="attr_WC3_Other" title="WC3_Other" value=""></td>
+                        <td><button type="roll" name="attr_wep1roll" title="wep1oll" value="/roll ceil(((@{WC3_Score}+?{modifier?|0} -1d100cs<@{WC3_Crit_Range}cf>96)/10)+.01)"></button></td>
+                    </tr>
+                </table>
+            </div>
+</div>
+
+<div>
+    <b>Show Skills, Feats, and Inventory?</b>
+        <input type="checkbox" class="sheet-pc-feats-show" title="feats-show" name="attr_feats-show" value="1" style="opacity:1;width: 16px;height: 16px;position: relative;top: 0px;left: 0px;margin: 0px;cursor: pointer;z-index: 1;" checked/><span></span>
+            <div class="sheet-pc-feats">
+                <div padding="0px 3px 0px 0px" style="width: 100%">
+                    <table cellpadding="0" cellspacing="0" style="width: 100%;">
+                        <tr>
+                            <td colspan="3">
+                                <table style="width: 54%;float: left;">
+                                        <tr>
+                                            <td colspan="8">
+                                                <table>
+                                                    <tr>
+                                                        <td class="sheet-label2">SKILLS</td>
+                                                        <td class="sheet-statlabel2"></td>
+                                                        <td class="sheet-statlabel2"></td>
+                                                        <td class="sheet-statlabel2" style="width: 200px;"></td>
+                                                        <td class="sheet-statlabel2" style="width: 45px;"></td>
+                                                        <td class="sheet-statlabel2" style="width: 45px;">Skills</td>
+                                                        <td class="sheet-statlabel2" style="width: 45px;">Ranks</td>
+                                                        <td class="sheet-statlabel2" style="width: 45px;">Remain</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="sheet-label2"></td>
+                                                        <td class="sheet-statlabel2"></td>
+                                                        <td class="sheet-statlabel2"></td>
+                                                        <td class="sheet-statlabel2"></td>
+                                                        <td class="sheet-statlabel2"></td>
+                                                        <td class="sheet-statlabel2"><input type="number" style="height: 24px; width: 45px;color: white;border-color: white;" title="Max-Skill-Ranks" name="attr_Max-Skill-Ranks" value="0"></td>
+                                                        <td class="sheet-statlabel2"><input type="text" style="height: 24px; width: 35px;color: white;border-color: white;" title="Total-Skill-Ranks" name="attr_Total-Skill-Ranks" value="(@{Acrobatics-ranks} + @{Appraise-ranks} + @{Bluff-ranks} + @{Climb-ranks} + @{Craft-ranks} + @{Craft2-ranks} + @{Diplomacy-ranks} + @{Disable-Device-ranks} + @{Disguise-ranks} + @{Escape-Artist-ranks} + @{Fly-ranks} + @{Handle-Animal-ranks} + @{Heal-ranks} + @{Intimidate-ranks} + @{Knowledge-Arcana-ranks} + @{Knowledge-Dungeoneering-ranks} + @{Knowledge-Engineering-ranks} + @{Knowledge-Geography-ranks} + @{Knowledge-History-ranks} + @{Knowledge-Local-ranks} + @{Knowledge-Nature-ranks} + @{Knowledge-Nobility-ranks} + @{Knowledge-Planes-ranks} + @{Knowledge-Religion-ranks} + @{Linguistics-ranks} + @{Perception-ranks} + @{Perform-ranks} + @{Perform2-ranks} + @{Profession-ranks} + @{Profession2-ranks} + @{Ride-ranks} + @{Sense-Motive-ranks} + @{Sleight-of-Hand-ranks} + @{Spellcraft-ranks} + @{Stealth-ranks} + @{Survival-ranks} + @{Swim-ranks} + @{Use-Magic-Device-ranks} + @{Misc-Skill-0-ranks} + @{Misc-Skill-1-ranks} + @{Misc-Skill-2-ranks} + @{Misc-Skill-3-ranks} + @{Misc-Skill-4-ranks} + @{Misc-Skill-5-ranks})" disabled></td>
+                                                        <td class="sheet-statlabel2"><input type="text" style="height: 24px; width: 35px;color: white;border-color: white;" title="Skill-Ranks-Remaining" name="attr_Skill-Ranks-Remaining" value="(@{Max-Skill-Ranks} - @{Total-Skill-Ranks})" disabled></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td>Skill</td>
+                                                        <td>Total</td>
+                                                        <td>Ranks</td>
+                                                        <td>Trained</td>
+                                                        <td>Misc</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><button style="font-size:100%;" title="Acrobatics-Check" type="roll" value="@{character_name}'s Acrobatics check: [[1d20 + @{Acrobatics}]]" name="roll_Acrobatics-Check"></button></td>
+                                                        <td></td>
+                                                        <td style="font-size: 1.5em"><b>*</b></td>
+                                                        <td style="text-align: left">Acrobatics</td>
+                                                        <td><input title="Acrobatics" type="text" name="attr_Acrobatics" value="(@{Acrobatics-ranks} + @{AgiMod} + @{Acrobatics-trained} + @{Acrobatics-misc} + 30)" disabled></td>
+                                                        <td><input title="Acrobatics-ranks" type="number" name="attr_Acrobatics-ranks" value="0"></td>
+                                                        <td><input title="Acrobatics-trained" type="checkbox" name="attr_Acrobatics-trained" value="10" /></td>
+                                                        <td><input title="Acrobatics-misc" type="text" name="attr_Acrobatics-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+														<td><button style="font-size:100%;" title="Acupuncture-Check" type="roll" value="@{character_name}'s Acrobatics check: [[1d20 + @{Acrobatics}]]" name="roll_Acupuncture-Check"></button></td>
+														<td></td>
+														<td style="font-size: 1.5em"><b>*</b></td>
+														<td style="text-align: left">Acupuncture</td>
+														<td><input title="Acupuncture" type="text" name="attr_Acupuncture" value="(@{Acupuncture-ranks} + @{IntMod} + @{Acupuncture-trained} + @{Acupuncture-misc} + 30)" disabled></td>
+														<td><input title="Acupuncture-ranks" type="number" name="attr_Acupuncture-ranks" value="0"></td>
+														<td><input title="Acupuncture-trained" type="checkbox" name="attr_Acupuncture-trained" value="10" /></td>
+														<td><input title="Acupuncture-misc" type="text" name="attr_Acupuncture-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+														<td><button style="font-size:100%;" title="Alchemy-Check" type="roll" value="@{character_name}'s Alchemy check: [[1d20 + @{Alchemy}]]" name="roll_Alchemy-Check"></button></td>
+														<td></td>
+														<td style="font-size: 1.5em"><b>*</b></td>
+														<td style="text-align: left">Alchemy</td>
+														<td><input title="Alchemy" type="text" name="attr_Alchemy" value="(@{Alchemy-ranks} + @{IntMod} + @{Alchemy-trained} + @{Alchemy-misc} + 30)" disabled></td>
+														<td><input title="Alchemy-ranks" type="number" name="attr_Alchemy-ranks" value="0"></td>
+														<td><input title="Alchemy-trained" type="checkbox" name="attr_Alchemy-trained" value="10" /></td>
+														<td><input title="Alchemy-misc" type="text" name="attr_Alchemy-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+														<td><button style="font-size:100%;" title="Alertness-Check" type="roll" value="@{character_name}'s Alertness check: [[1d20 + @{Acrobatics}]]" name="roll_Alertness-Check"></button></td>
+														<td></td>
+														<td style="font-size: 1.5em"><b></b></td>
+														<td style="text-align: left">Alertness</td>
+														<td><input title="Alertness" type="text" name="attr_Alertness" value="(@{Alertness-ranks} + @{PerMod} + @{Alertness-trained} + @{Alertness-misc} + 30)" disabled></td>
+														<td><input title="Alertness-ranks" type="number" name="attr_Alertness-ranks" value="0"></td>
+														<td><input title="Alertness-trained" type="checkbox" name="attr_Alertness-trained" value="10" /></td>
+														<td><input title="Alertness-misc" type="text" name="attr_Alertness-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+														<td><button style="font-size:100%;" title="Animal_Handling-Check" type="roll" value="@{character_name}'s Animal_Handling check: [[1d20 + @{Animal_Handling}]]" name="roll_Animal_Handling-Check"></button></td>
+														<td></td>
+														<td style="font-size: 1.5em"><b></b></td>
+														<td style="text-align: left">Animal Handling</td>
+														<td><input title="Animal_Handling" type="text" name="attr_Animal_Handling" value="(@{Animal_Handling-ranks} + @{WitsMod} + @{Animal_Handling-trained} + @{Animal_Handling-misc} + 30)" disabled></td>
+														<td><input title="Animal_Handling-ranks" type="number" name="attr_Animal_Handling-ranks" value="0"></td>
+														<td><input title="Animal_Handling-trained" type="checkbox" name="attr_Animal_Handling-trained" value="10" /></td>
+														<td><input title="Animal_Handling-misc" type="text" name="attr_Animal_Handling-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+														<td><button style="font-size:100%;" title="Appraising-Check" type="roll" value="@{character_name}'s Appraising check: [[1d20 + @{Appraising}]]" name="roll_Appraising-Check"></button></td>
+														<td></td>
+														<td style="font-size: 1.5em"><b></b></td>
+														<td style="text-align: left">Appraising</td>
+														<td><input title="Appraising" type="text" name="attr_Appraising" value="(@{Appraising-ranks} + @{IntMod} + @{Appraising-trained} + @{Appraising-misc} + 30)" disabled></td>
+														<td><input title="Appraising-ranks" type="number" name="attr_Appraising-ranks" value="0"></td>
+														<td><input title="Appraising-trained" type="checkbox" name="attr_Appraising-trained" value="10" /></td>
+														<td><input title="Appraising-misc" type="text" name="attr_Appraising-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+														<td><button style="font-size:100%;" title="Artistry-Check" type="roll" value="@{character_name}'s Artistry check: [[1d20 + @{Artistry}]]" name="roll_Artistry-Check"></button></td>
+														<td></td>
+														<td style="font-size: 1.5em"><b>*</b></td>
+														<td style="text-align: left">Artistry</td>
+														<td><input title="Artistry" type="text" name="attr_Artistry" value="(@{Artistry-ranks} + @{WitsMod} + @{Artistry-trained} + @{Artistry-misc} + 30)" disabled></td>
+														<td><input title="Artistry-ranks" type="number" name="attr_Artistry-ranks" value="0"></td>
+														<td><input title="Artistry-trained" type="checkbox" name="attr_Artistry-trained" value="10" /></td>
+														<td><input title="Artistry-misc" type="text" name="attr_Artistry-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+														<td><button style="font-size:100%;" title="Brawling-Check" type="roll" value="@{character_name}'s Brawling check: [[1d20 + @{Brawling}]]" name="roll_Brawling-Check"></button></td>
+														<td></td>
+														<td style="font-size: 1.5em"><b></b></td>
+														<td style="text-align: left">Brawling <select style="width: 60px;" name="attr_Brawl_Attribute_Mod" title="Brawl_Attribute_Mod">
+																					<option value="@{StrMod}" selected>Str</option>
+																					<option value="@{AgiMod}">Agi</option></td>
+														<td><input title="Brawling" type="text" name="attr_Brawling" value="(@{Brawling-ranks} + @{Brawl_Attribute_Mod} + @{Brawling-trained} + @{Brawling-misc} + 30)" disabled></td>
+														<td><input title="Brawling-ranks" type="number" name="attr_Brawling-ranks" value="0"></td>
+														<td><input title="Brawling-trained" type="checkbox" name="attr_Brawling-trained" value="10" /></td>
+														<td><input title="Brawling-misc" type="text" name="attr_Brawling-misc" value="0"></td>
+														<td style="width: 75px">
+                        														</select></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Chanting-Check" type="roll" value="@{character_name}'s Chanting check: [[1d20 + @{Chanting}]]" name="roll_Chanting-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b></b></td>
+													    <td style="text-align: left">Chanting</td>
+													    <td><input title="Chanting" type="text" name="attr_Chanting" value="(@{Chanting-ranks} + @{StaMod} + @{Chanting-trained} + @{Chanting-misc} + 30)" disabled></td>
+													    <td><input title="Chanting-ranks" type="number" name="attr_Chanting-ranks" value="0"></td>
+													    <td><input title="Chanting-trained" type="checkbox" name="attr_Chanting-trained" value="10" /></td>
+													    <td><input title="Chanting-misc" type="text" name="attr_Chanting-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Climbing-Check" type="roll" value="@{character_name}'s Climbing check: [[1d20 + @{Climbing}]]" name="roll_Climbing-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b></b></td>
+													    <td style="text-align: left">Climb <select style="width: 60px;" name="attr_Climb_Attribute_Mod" title="Climb_Attribute_Mod">
+																					<option value="@{StrMod}" selected>Str</option>
+																					<option value="@{AgiMod}">Agi</option></td>
+													    <td><input title="Climbing" type="text" name="attr_Climbing" value="(@{Climbing-ranks} + @{Climb_Attribute_Mod} + @{Climbing-trained} + @{Climbing-misc} + 30)" disabled></td>
+													    <td><input title="Climbing-ranks" type="number" name="attr_Climbing-ranks" value="0"></td>
+													    <td><input title="Climbing-trained" type="checkbox" name="attr_Climbing-trained" value="10" /></td>
+													    <td><input title="Climbing-misc" type="text" name="attr_Climbing-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Concentration-Check" type="roll" value="@{character_name}'s Concentration check: [[1d20 + @{Concentration}]]" name="roll_Concentration-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b></b></td>
+													    <td style="text-align: left">Concentration</td>
+													    <td><input title="Concentration" type="text" name="attr_Concentration" value="(@{Concentration-ranks} + @{WillMod} + @{Concentration-trained} + @{Concentration-misc} + 30)" disabled></td>
+													    <td><input title="Concentration-ranks" type="number" name="attr_Concentration-ranks" value="0"></td>
+													    <td><input title="Concentration-trained" type="checkbox" name="attr_Concentration-trained" value="10" /></td>
+													    <td><input title="Concentration-misc" type="text" name="attr_Concentration-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Convince-Check" type="roll" value="@{character_name}'s Convince check: [[1d20 + @{Convince}]]" name="roll_Convince-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b></b></td>
+													    <td style="text-align: left">Convince <select style="width: 60px;" name="attr_Convince_Attribute_Mod" title="Convince_Attribute_Mod">
+																					<option value="@{ChrMod}" selected>Chr</option>
+																					<option value="@{StrMod}">Str</option></td>
+													    <td><input title="Convince" type="text" name="attr_Convince" value="(@{Convince-ranks} + @{Convince_Attribute_Mod} + @{Convince-trained} + @{Convince-misc} + 30)" disabled></td>
+													    <td><input title="Convince-ranks" type="number" name="attr_Convince-ranks" value="0"></td>
+													    <td><input title="Convince-trained" type="checkbox" name="attr_Convince-trained" value="10" /></td>
+													    <td><input title="Convince-misc" type="text" name="attr_Convince-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Disguise-Check" type="roll" value="@{character_name}'s Disguise check: [[1d20 + @{Disguise}]]" name="roll_Disguise-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b>*</b></td>
+													    <td style="text-align: left">Disguise</td>
+													    <td><input title="Disguise" type="text" name="attr_Disguise" value="(@{Disguise-ranks} + @{WitsMod} + @{Disguise-trained} + @{Disguise-misc} + 30)" disabled></td>
+													    <td><input title="Disguise-ranks" type="number" name="attr_Disguise-ranks" value="0"></td>
+													    <td><input title="Disguise-trained" type="checkbox" name="attr_Disguise-trained" value="10" /></td>
+													    <td><input title="Disguise-misc" type="text" name="attr_Disguise-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Divine_Knowledge-Check" type="roll" value="@{character_name}'s Divine_Knowledge check: [[1d20 + @{Divine_Knowledge}]]" name="roll_Divine_Knowledge-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b>*</b></td>
+													    <td style="text-align: left">Divine Knowledge</td>
+													    <td><input title="Divine_Knowledge" type="text" name="attr_Divine_Knowledge" value="(@{Divine_Knowledge-ranks} + @{ChrMod} + @{Divine_Knowledge-trained} + @{Divine_Knowledge-misc} + 30)" disabled></td>
+													    <td><input title="Divine_Knowledge-ranks" type="number" name="attr_Divine_Knowledge-ranks" value="0"></td>
+													    <td><input title="Divine_Knowledge-trained" type="checkbox" name="attr_Divine_Knowledge-trained" value="10" /></td>
+													    <td><input title="Divine_Knowledge-misc" type="text" name="attr_Divine_Knowledge-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Engineering-Check" type="roll" value="@{character_name}'s Engineering check: [[1d20 + @{Engineering}]]" name="roll_Engineering-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b>*</b></td>
+													    <td style="text-align: left">Engineering</td>
+													    <td><input title="Engineering" type="text" name="attr_Engineering" value="(@{Engineering-ranks} + @{IntMod} + @{Engineering-trained} + @{Engineering-misc} + 30)" disabled></td>
+													    <td><input title="Engineering-ranks" type="number" name="attr_Engineering-ranks" value="0"></td>
+													    <td><input title="Engineering-trained" type="checkbox" name="attr_Engineering-trained" value="10" /></td>
+													    <td><input title="Engineering-misc" type="text" name="attr_Engineering-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Entertainment-Check" type="roll" value="@{character_name}'s Entertainment check: [[1d20 + @{Entertainment}]]" name="roll_Entertainment-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b></b></td>
+													    <td style="text-align: left">Entertainment <select style="width: 60px;" name="attr_Entertainment_Attribute_Mod" title="Entertainment_Attribute_Mod">
+																					<option value="@{IntMod}" selected>Int</option>
+																					<option value="@{ChrMod}">Chr</option>
+																					<option value="@{WitsMod}">Wits</option></td>
+													    <td><input title="Entertainment" type="text" name="attr_Entertainment" value="(@{Entertainment-ranks} + @{Entertainment_Attribute_Mod} + @{Entertainment-trained} + @{Entertainment-misc} + 30)" disabled></td>
+													    <td><input title="Entertainment-ranks" type="number" name="attr_Entertainment-ranks" value="0"></td>
+													    <td><input title="Entertainment-trained" type="checkbox" name="attr_Entertainment-trained" value="10" /></td>
+													    <td><input title="Entertainment-misc" type="text" name="attr_Entertainment-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Etiquette-Check" type="roll" value="@{character_name}'s Etiquette check: [[1d20 + @{Etiquette}]]" name="roll_Etiquette-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b></b></td>
+													    <td style="text-align: left">Etiquette</td>
+													    <td><input title="Etiquette" type="text" name="attr_Etiquette" value="(@{Etiquette-ranks} + @{WitsMod} + @{Etiquette-trained} + @{Etiquette-misc} + 30)" disabled></td>
+													    <td><input title="Etiquette-ranks" type="number" name="attr_Etiquette-ranks" value="0"></td>
+													    <td><input title="Etiquette-trained" type="checkbox" name="attr_Etiquette-trained" value="10" /></td>
+													    <td><input title="Etiquette-misc" type="text" name="attr_Etiquette-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Evade-Check" type="roll" value="@{character_name}'s Evade check: [[1d20 + @{Evade}]]" name="roll_Evade-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b></b></td>
+													    <td style="text-align: left">Evade</td>
+													    <td><input title="Evade" type="text" name="attr_Evade" value="(@{Evade-ranks} + @{AgiMod} + @{Evade-trained} + @{Evade-misc} + 30)" disabled></td>
+													    <td><input title="Evade-ranks" type="number" name="attr_Evade-ranks" value="0"></td>
+													    <td><input title="Evade-trained" type="checkbox" name="attr_Evade-trained" value="10" /></td>
+													    <td><input title="Evade-misc" type="text" name="attr_Evade-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Fabrication-Check" type="roll" value="@{character_name}'s Fabrication check: [[1d20 + @{Fabrication}]]" name="roll_Fabrication-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b></b></td>
+													    <td style="text-align: left">Fabrication</td>
+													    <td><input title="Fabrication" type="text" name="attr_Fabrication" value="(@{Fabrication-ranks} + @{IntMod} + @{Fabrication-trained} + @{Fabrication-misc} + 30)" disabled></td>
+													    <td><input title="Fabrication-ranks" type="number" name="attr_Fabrication-ranks" value="0"></td>
+													    <td><input title="Fabrication-trained" type="checkbox" name="attr_Fabrication-trained" value="10" /></td>
+													    <td><input title="Fabrication-misc" type="text" name="attr_Fabrication-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Feint-Check" type="roll" value="@{character_name}'s Feint check: [[1d20 + @{Feint}]]" name="roll_Feint-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b></b></td>
+													    <td style="text-align: left">Feint</td>
+													    <td><input title="Feint" type="text" name="attr_Feint" value="(@{Feint-ranks} + @{ChrMod} + @{Feint-trained} + @{Feint-misc} + 30)" disabled></td>
+													    <td><input title="Feint-ranks" type="number" name="attr_Feint-ranks" value="0"></td>
+													    <td><input title="Feint-trained" type="checkbox" name="attr_Feint-trained" value="10" /></td>
+													    <td><input title="Feint-misc" type="text" name="attr_Feint-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Forgery-Check" type="roll" value="@{character_name}'s Forgery check: [[1d20 + @{Forgery}]]" name="roll_Forgery-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b>*</b></td>
+													    <td style="text-align: left">Forgery</td>
+													    <td><input title="Forgery" type="text" name="attr_Forgery" value="(@{Forgery-ranks} + @{WitsMod} + @{Forgery-trained} + @{Forgery-misc} + 30)" disabled></td>
+													    <td><input title="Forgery-ranks" type="number" name="attr_Forgery-ranks" value="0"></td>
+													    <td><input title="Forgery-trained" type="checkbox" name="attr_Forgery-trained" value="10" /></td>
+													    <td><input title="Forgery-misc" type="text" name="attr_Forgery-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Gaming-Check" type="roll" value="@{character_name}'s Gaming check: [[1d20 + @{Gaming}]]" name="roll_Gaming-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b></b></td>
+													    <td style="text-align: left">Gaming</td>
+													    <td><input title="Gaming" type="text" name="attr_Gaming" value="(@{Gaming-ranks} + @{ChrMod} + @{Gaming-trained} + @{Gaming-misc} + 30)" disabled></td>
+													    <td><input title="Gaming-ranks" type="number" name="attr_Gaming-ranks" value="0"></td>
+													    <td><input title="Gaming-trained" type="checkbox" name="attr_Gaming-trained" value="10" /></td>
+													    <td><input title="Gaming-misc" type="text" name="attr_Gaming-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Haggle-Check" type="roll" value="@{character_name}'s Haggle check: [[1d20 + @{Haggle}]]" name="roll_Haggle-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b></b></td>
+													    <td style="text-align: left">Haggle</td>
+													    <td><input title="Haggle" type="text" name="attr_Haggle" value="(@{Haggle-ranks} + @{ChrMod} + @{Haggle-trained} + @{Haggle-misc} + 30)" disabled></td>
+													    <td><input title="Haggle-ranks" type="number" name="attr_Haggle-ranks" value="0"></td>
+													    <td><input title="Haggle-trained" type="checkbox" name="attr_Haggle-trained" value="10" /></td>
+													    <td><input title="Haggle-misc" type="text" name="attr_Haggle-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Healing-Check" type="roll" value="@{character_name}'s Healing check: [[1d20 + @{Healing}]]" name="roll_Healing-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b></b></td>
+													    <td style="text-align: left">Healing</td>
+													    <td><input title="Healing" type="text" name="attr_Healing" value="(@{Healing-ranks} + @{IntMod} + @{Healing-trained} + @{Healing-misc} + 30)" disabled></td>
+													    <td><input title="Healing-ranks" type="number" name="attr_Healing-ranks" value="0"></td>
+													    <td><input title="Healing-trained" type="checkbox" name="attr_Healing-trained" value="10" /></td>
+													    <td><input title="Healing-misc" type="text" name="attr_Healing-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Herbalism-Check" type="roll" value="@{character_name}'s Herbalism check: [[1d20 + @{Herbalism}]]" name="roll_Herbalism-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b></b></td>
+													    <td style="text-align: left">Herbalism</td>
+													    <td><input title="Herbalism" type="text" name="attr_Herbalism" value="(@{Herbalism-ranks} + @{IntMod} + @{Herbalism-trained} + @{Herbalism-misc} + 30)" disabled></td>
+													    <td><input title="Herbalism-ranks" type="number" name="attr_Herbalism-ranks" value="0"></td>
+													    <td><input title="Herbalism-trained" type="checkbox" name="attr_Herbalism-trained" value="10" /></td>
+													    <td><input title="Herbalism-misc" type="text" name="attr_Herbalism-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Information_Gathering-Check" type="roll" value="@{character_name}'s Information_Gathering check: [[1d20 + @{Information_Gathering}]]" name="roll_Information_Gathering-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b></b></td>
+													    <td style="text-align: left">Info. Gathering <select style="width: 60px;" name="attr_Info_Attribute_Mod" title="Info_Attribute_Mod">
+																					<option value="@{WitsMod}" selected>Wits</option>
+																					<option value="@{ChrMod}">Chr</option></td>
+													    <td><input title="Information_Gathering" type="text" name="attr_Information_Gathering" value="(@{Information_Gathering-ranks} + @{Info_Attribute_Mod} + @{Information_Gathering-trained} + @{Information_Gathering-misc} + 30)" disabled></td>
+													    <td><input title="Information_Gathering-ranks" type="number" name="attr_Information_Gathering-ranks" value="0"></td>
+													    <td><input title="Information_Gathering-trained" type="checkbox" name="attr_Information_Gathering-trained" value="10" /></td>
+													    <td><input title="Information_Gathering-misc" type="text" name="attr_Information_Gathering-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Interrogate-Check" type="roll" value="@{character_name}'s Interrogate check: [[1d20 + @{Interrogate}]]" name="roll_Interrogate-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b></b></td>
+													    <td style="text-align: left">Interrogate <select style="width: 60px;" name="attr_Interrogate_Attribute_Mod" title="Interrogate_Attribute_Mod">
+																					<option value="@{WitsMod}" selected>Wits</option>
+																					<option value="@{ChrMod}">Chr</option></td>
+													    <td><input title="Interrogate" type="text" name="attr_Interrogate" value="(@{Interrogate-ranks} + @{Interrogate_Attribute_Mod} + @{Interrogate-trained} + @{Interrogate-misc} + 30)" disabled></td>
+													    <td><input title="Interrogate-ranks" type="number" name="attr_Interrogate-ranks" value="0"></td>
+													    <td><input title="Interrogate-trained" type="checkbox" name="attr_Interrogate-trained" value="10" /></td>
+													    <td><input title="Interrogate-misc" type="text" name="attr_Interrogate-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Jinhu_Discipline-Check" type="roll" value="@{character_name}'s Jinhu_Discipline check: [[1d20 + @{Jinhu_Discipline}]]" name="roll_Jinhu_Discipline-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b>*</b></td>
+													    <td style="text-align: left">Jinhu Discipline</td>
+													    <td><input title="Jinhu_Discipline" type="text" name="attr_Jinhu_Discipline" value="(@{Jinhu_Discipline-ranks} + @{WillMod} + @{Jinhu_Discipline-trained} + @{Jinhu_Discipline-misc} + 30)" disabled></td>
+													    <td><input title="Jinhu_Discipline-ranks" type="number" name="attr_Jinhu_Discipline-ranks" value="0"></td>
+													    <td><input title="Jinhu_Discipline-trained" type="checkbox" name="attr_Jinhu_Discipline-trained" value="10" /></td>
+													    <td><input title="Jinhu_Discipline-misc" type="text" name="attr_Jinhu_Discipline-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Language_1-Check" type="roll" value="@{character_name}'s Language_1 check: [[1d20 + @{Language_1}]]" name="roll_Language_1-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b>*</b></td>
+													    <td style="text-align: left">Language: <input style="width: 120px;" title="Language-name1" type="text" name="attr_Language_name1"></td>
+													    <td><input title="Language_1" type="text" name="attr_Language_1" value="(@{Language_1-ranks} + @{IntMod} + @{Language_1-trained} + @{Language_1-misc} + 30)" disabled></td>
+													    <td><input title="Language_1-ranks" type="number" name="attr_Language_1-ranks" value="0"></td>
+													    <td><input title="Language_1-trained" type="checkbox" name="attr_Language_1-trained" value="10" /></td>
+													    <td><input title="Language_1-misc" type="text" name="attr_Language_1-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Language_2-Check" type="roll" value="@{character_name}'s Language_2 check: [[1d20 + @{Language_2}]]" name="roll_Language_2-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b>*</b></td>
+													    <td style="text-align: left">Language: <input style="width: 120px;" title="Language-name2" type="text" name="attr_Language_name2"></td>
+													    <td><input title="Language_2" type="text" name="attr_Language_2" value="(@{Language_2-ranks} + @{IntMod} + @{Language_2-trained} + @{Language_2-misc} + 30)" disabled></td>
+													    <td><input title="Language_2-ranks" type="number" name="attr_Language_2-ranks" value="0"></td>
+													    <td><input title="Language_2-trained" type="checkbox" name="attr_Language_2-trained" value="10" /></td>
+													    <td><input title="Language_2-misc" type="text" name="attr_Language_2-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Leadership-Check" type="roll" value="@{character_name}'s Leadership check: [[1d20 + @{Leadership}]]" name="roll_Leadership-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b></b></td>
+													    <td style="text-align: left">Leadership</td>
+													    <td><input title="Leadership" type="text" name="attr_Leadership" value="(@{Leadership-ranks} + @{ChrMod} + @{Leadership-trained} + @{Leadership-misc} + 30)" disabled></td>
+													    <td><input title="Leadership-ranks" type="number" name="attr_Leadership-ranks" value="0"></td>
+													    <td><input title="Leadership-trained" type="checkbox" name="attr_Leadership-trained" value="10" /></td>
+													    <td><input title="Leadership-misc" type="text" name="attr_Leadership-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Lore_1-Check" type="roll" value="@{character_name}'s Lore_1 check: [[1d20 + @{Lore_1}]]" name="roll_Lore_1-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b>*</b></td>
+													    <td style="text-align: left">Lore: <input style="width: 120px;" title="Lore-name1" type="text" name="attr_Lore_name1"></td>
+													    <td><input title="Lore_1" type="text" name="attr_Lore_1" value="(@{Lore_1-ranks} + @{IntMod} + @{Lore_1-trained} + @{Lore_1-misc} + 30)" disabled></td>
+													    <td><input title="Lore_1-ranks" type="number" name="attr_Lore_1-ranks" value="0"></td>
+													    <td><input title="Lore_1-trained" type="checkbox" name="attr_Lore_1-trained" value="10" /></td>
+													    <td><input title="Lore_1-misc" type="text" name="attr_Lore_1-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Lore_2-Check" type="roll" value="@{character_name}'s Lore_2 check: [[1d20 + @{Lore_2}]]" name="roll_Lore_2-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b>*</b></td>
+													    <td style="text-align: left">Lore: <input style="width: 120px;" title="Lore-name2" type="text" name="attr_Lore_name2"></td>
+													    <td><input title="Lore_2" type="text" name="attr_Lore_2" value="(@{Lore_2-ranks} + @{IntMod} + @{Lore_2-trained} + @{Lore_2-misc} + 30)" disabled></td>
+													    <td><input title="Lore_2-ranks" type="number" name="attr_Lore_2-ranks" value="0"></td>
+													    <td><input title="Lore_2-trained" type="checkbox" name="attr_Lore_2-trained" value="10" /></td>
+													    <td><input title="Lore_2-misc" type="text" name="attr_Lore_2-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Lore_3-Check" type="roll" value="@{character_name}'s Lore_3 check: [[1d20 + @{Lore_3}]]" name="roll_Lore_3-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b>*</b></td>
+													    <td style="text-align: left">Lore: <input style="width: 120px;" title="Lore-name3" type="text" name="attr_Lore_name3"></td>
+													    <td><input title="Lore_3" type="text" name="attr_Lore_3" value="(@{Lore_3-ranks} + @{IntMod} + @{Lore_3-trained} + @{Lore_3-misc} + 30)" disabled></td>
+													    <td><input title="Lore_3-ranks" type="number" name="attr_Lore_3-ranks" value="0"></td>
+													    <td><input title="Lore_3-trained" type="checkbox" name="attr_Lore_3-trained" value="10" /></td>
+													    <td><input title="Lore_3-misc" type="text" name="attr_Lore_3-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Lore_4-Check" type="roll" value="@{character_name}'s Lore_4 check: [[1d20 + @{Lore_4}]]" name="roll_Lore_4-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b>*</b></td>
+													    <td style="text-align: left">Lore: <input style="width: 120px;" title="Lore-name4" type="text" name="attr_Lore_name4"></td>
+													    <td><input title="Lore_4" type="text" name="attr_Lore_4" value="(@{Lore_4-ranks} + @{IntMod} + @{Lore_4-trained} + @{Lore_4-misc} + 30)" disabled></td>
+													    <td><input title="Lore_4-ranks" type="number" name="attr_Lore_4-ranks" value="0"></td>
+													    <td><input title="Lore_4-trained" type="checkbox" name="attr_Lore_4-trained" value="10" /></td>
+													    <td><input title="Lore_4-misc" type="text" name="attr_Lore_4-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Martial_Arts-Check" type="roll" value="@{character_name}'s Martial_Arts check: [[1d20 + @{Martial_Arts}]]" name="roll_Martial_Arts-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b>*</b></td>
+													    <td style="text-align: left">Martial Arts <select style="width: 60px;" name="attr_MA_Attribute_Mod" title="MA_Attribute_Mod">
+																					<option value="@{StrMod}" selected>Str</option>
+																					<option value="@{AgiMod}">Agi</option></td>
+													    <td><input title="Martial_Arts" type="text" name="attr_Martial_Arts" value="(@{Martial_Arts-ranks} + @{MA_Attribute_Mod} + @{Martial_Arts-trained} + @{Martial_Arts-misc} + 30)" disabled></td>
+													    <td><input title="Martial_Arts-ranks" type="number" name="attr_Martial_Arts-ranks" value="0"></td>
+													    <td><input title="Martial_Arts-trained" type="checkbox" name="attr_Martial_Arts-trained" value="10" /></td>
+													    <td><input title="Martial_Arts-misc" type="text" name="attr_Martial_Arts-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Meditate-Check" type="roll" value="@{character_name}'s Meditate check: [[1d20 + @{Meditate}]]" name="roll_Meditate-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b></b></td>
+													    <td style="text-align: left">Meditate</td>
+													    <td><input title="Meditate" type="text" name="attr_Meditate" value="(@{Meditate-ranks} + @{WillMod} + @{Meditate-trained} + @{Meditate-misc} + 30)" disabled></td>
+													    <td><input title="Meditate-ranks" type="number" name="attr_Meditate-ranks" value="0"></td>
+													    <td><input title="Meditate-trained" type="checkbox" name="attr_Meditate-trained" value="10" /></td>
+													    <td><input title="Meditate-misc" type="text" name="attr_Meditate-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Navigation-Check" type="roll" value="@{character_name}'s Navigation check: [[1d20 + @{Navigation}]]" name="roll_Navigation-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b></b></td>
+													    <td style="text-align: left">Navigation</td>
+													    <td><input title="Navigation" type="text" name="attr_Navigation" value="(@{Navigation-ranks} + @{IntMod} + @{Navigation-trained} + @{Navigation-misc} + 30)" disabled></td>
+													    <td><input title="Navigation-ranks" type="number" name="attr_Navigation-ranks" value="0"></td>
+													    <td><input title="Navigation-trained" type="checkbox" name="attr_Navigation-trained" value="10" /></td>
+													    <td><input title="Navigation-misc" type="text" name="attr_Navigation-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Open_Locks-Check" type="roll" value="@{character_name}'s Open_Locks check: [[1d20 + @{Open_Locks}]]" name="roll_Open_Locks-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b>*</b></td>
+													    <td style="text-align: left">Open 	Locks</td>
+													    <td><input title="Open_Locks" type="text" name="attr_Open_Locks" value="(@{Open_Locks-ranks} + @{PerMod} + @{Open_Locks-trained} + @{Open_Locks-misc} + 30)" disabled></td>
+													    <td><input title="Open_Locks-ranks" type="number" name="attr_Open_Locks-ranks" value="0"></td>
+													    <td><input title="Open_Locks-trained" type="checkbox" name="attr_Open_Locks-trained" value="10" /></td>
+													    <td><input title="Open_Locks-misc" type="text" name="attr_Open_Locks-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Pilot-Check" type="roll" value="@{character_name}'s Pilot check: [[1d20 + @{Pilot}]]" name="roll_Pilot-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b></b></td>
+													    <td style="text-align: left">Pilot <select style="width: 60px;" name="attr_Pilot_Attribute_Mod" title="Pilot_Attribute_Mod">
+																					<option value="@{IntMod}" selected>Int</option>
+																					<option value="@{WitsMod}">Wits</option></td>
+													    <td><input title="Pilot" type="text" name="attr_Pilot" value="(@{Pilot-ranks} + @{Pilot_Attribute_Mod} + @{Pilot-trained} + @{Pilot-misc} + 30)" disabled></td>
+													    <td><input title="Pilot-ranks" type="number" name="attr_Pilot-ranks" value="0"></td>
+													    <td><input title="Pilot-trained" type="checkbox" name="attr_Pilot-trained" value="10" /></td>
+													    <td><input title="Pilot-misc" type="text" name="attr_Pilot-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Read_Lips-Check" type="roll" value="@{character_name}'s Read_Lips check: [[1d20 + @{Read_Lips}]]" name="roll_Read_Lips-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b></b></td>
+													    <td style="text-align: left">Read Lips</td>
+													    <td><input title="Read_Lips" type="text" name="attr_Read_Lips" value="(@{Read_Lips-ranks} + @{PerMod} + @{Read_Lips-trained} + @{Read_Lips-misc} + 30)" disabled></td>
+													    <td><input title="Read_Lips-ranks" type="number" name="attr_Read_Lips-ranks" value="0"></td>
+													    <td><input title="Read_Lips-trained" type="checkbox" name="attr_Read_Lips-trained" value="10" /></td>
+													    <td><input title="Read_Lips-misc" type="text" name="attr_Read_Lips-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Research-Check" type="roll" value="@{character_name}'s Research check: [[1d20 + @{Research}]]" name="roll_Research-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b></b></td>
+													    <td style="text-align: left">Research</td>
+													    <td><input title="Research" type="text" name="attr_Research" value="(@{Research-ranks} + @{IntMod} + @{Research-trained} + @{Research-misc} + 30)" disabled></td>
+													    <td><input title="Research-ranks" type="number" name="attr_Research-ranks" value="0"></td>
+													    <td><input title="Research-trained" type="checkbox" name="attr_Research-trained" value="10" /></td>
+													    <td><input title="Research-misc" type="text" name="attr_Research-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Riding-Check" type="roll" value="@{character_name}'s Riding check: [[1d20 + @{Riding}]]" name="roll_Riding-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b></b></td>
+													    <td style="text-align: left">Riding</td>
+													    <td><input title="Riding" type="text" name="attr_Riding" value="(@{Riding-ranks} + @{AgiMod} + @{Riding-trained} + @{Riding-misc} + 30)" disabled></td>
+													    <td><input title="Riding-ranks" type="number" name="attr_Riding-ranks" value="0"></td>
+													    <td><input title="Riding-trained" type="checkbox" name="attr_Riding-trained" value="10" /></td>
+													    <td><input title="Riding-misc" type="text" name="attr_Riding-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Search-Check" type="roll" value="@{character_name}'s Search check: [[1d20 + @{Search}]]" name="roll_Search-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b></b></td>
+													    <td style="text-align: left">Search</td>
+													    <td><input title="Search" type="text" name="attr_Search" value="(@{Search-ranks} + @{PerMod} + @{Search-trained} + @{Search-misc} + 30)" disabled></td>
+													    <td><input title="Search-ranks" type="number" name="attr_Search-ranks" value="0"></td>
+													    <td><input title="Search-trained" type="checkbox" name="attr_Search-trained" value="10" /></td>
+													    <td><input title="Search-misc" type="text" name="attr_Search-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Shield_Proficiency-Check" type="roll" value="@{character_name}'s Shield_Proficiency check: [[1d20 + @{Shield_Proficiency}]]" name="roll_Shield_Proficiency-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b></b></td>
+													    <td style="text-align: left">Shield Proficiency <select style="width: 60px;" name="attr_Shield_Attribute_Mod" title="Shield_Attribute_Mod">
+																					<option value="@{StrMod}" selected>Str</option>
+																					<option value="@{AgiMod}">Agi</option></td>
+													    <td><input title="Shield_Proficiency" type="text" name="attr_Shield_Proficiency" value="(@{Shield_Proficiency-ranks} + @{Shield_Attribute_Mod} + @{Shield_Proficiency-trained} + @{Shield_Proficiency-misc} + 30)" disabled></td>
+													    <td><input title="Shield_Proficiency-ranks" type="number" name="attr_Shield_Proficiency-ranks" value="0"></td>
+													    <td><input title="Shield_Proficiency-trained" type="checkbox" name="attr_Shield_Proficiency-trained" value="10" /></td>
+													    <td><input title="Shield_Proficiency-misc" type="text" name="attr_Shield_Proficiency-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Sign_Language-Check" type="roll" value="@{character_name}'s Sign_Language check: [[1d20 + @{Sign_Language}]]" name="roll_Sign_Language-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b></b></td>
+													    <td style="text-align: left">Sign Language <select style="width: 60px;" name="attr_SL_Attribute_Mod" title="SL_Attribute_Mod">
+																					<option value="@{IntMod}" selected>Int</option>
+																					<option value="@{AgiMod}">Agi</option></td>
+													    <td><input title="Sign_Language" type="text" name="attr_Sign_Language" value="(@{Sign_Language-ranks} + @{SL_Attribute_Mod} + @{Sign_Language-trained} + @{Sign_Language-misc} + 30)" disabled></td>
+													    <td><input title="Sign_Language-ranks" type="number" name="attr_Sign_Language-ranks" value="0"></td>
+													    <td><input title="Sign_Language-trained" type="checkbox" name="attr_Sign_Language-trained" value="10" /></td>
+													    <td><input title="Sign_Language-misc" type="text" name="attr_Sign_Language-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Skepticism-Check" type="roll" value="@{character_name}'s Skepticism check: [[1d20 + @{Skepticism}]]" name="roll_Skepticism-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b></b></td>
+													    <td style="text-align: left">Skepticism</td>
+													    <td><input title="Skepticism" type="text" name="attr_Skepticism" value="(@{Skepticism-ranks} + @{WitsMod} + @{Skepticism-trained} + @{Skepticism-misc} + 30)" disabled></td>
+													    <td><input title="Skepticism-ranks" type="number" name="attr_Skepticism-ranks" value="0"></td>
+													    <td><input title="Skepticism-trained" type="checkbox" name="attr_Skepticism-trained" value="10" /></td>
+													    <td><input title="Skepticism-misc" type="text" name="attr_Skepticism-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Smithing_Armor-Check" type="roll" value="@{character_name}'s Smithing_Armor check: [[1d20 + @{Smithing_Armor}]]" name="roll_Smithing_Armor-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b></b></td>
+													    <td style="text-align: left">Smithing_Armor <select style="width: 60px;" name="attr_Smith_Armor_Attribute_Mod" title="Smith_Armor_Attribute_Mod">
+																					<option value="@{IntMod}" selected>Int</option>
+																					<option value="@{strMod}">Str</option></td>
+													    <td><input title="Smithing_Armor" type="text" name="attr_Smithing_Armor" value="(@{Smithing_Armor-ranks} + @{Smith_Armor_Attribute_Mod} + @{Smithing_Armor-trained} + @{Smithing_Armor-misc} + 30)" disabled></td>
+													    <td><input title="Smithing_Armor-ranks" type="number" name="attr_Smithing_Armor-ranks" value="0"></td>
+													    <td><input title="Smithing_Armor-trained" type="checkbox" name="attr_Smithing_Armor-trained" value="10" /></td>
+													    <td><input title="Smithing_Armor-misc" type="text" name="attr_Smithing_Armor-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Smithing_Weapon-Check" type="roll" value="@{character_name}'s Smithing_Weapon check: [[1d20 + @{Smithing_Weapon}]]" name="roll_Smithing_Weapon-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b></b></td>
+													    <td style="text-align: left">Smithing_Weapon <select style="width: 60px;" name="attr_Smith_Weapon_Attribute_Mod" title="Smith_Weapon_Attribute_Mod">
+																					<option value="@{IntMod}" selected>Int</option>
+																					<option value="@{strMod}">Str</option></td>
+													    <td><input title="Smithing_Weapon" type="text" name="attr_Smithing_Weapon" value="(@{Smithing_Weapon-ranks} + @{Smith_Weapon_Attribute_Mod} + @{Smithing_Weapon-trained} + @{Smithing_Weapon-misc} + 30)" disabled></td>
+													    <td><input title="Smithing_Weapon-ranks" type="number" name="attr_Smithing_Weapon-ranks" value="0"></td>
+													    <td><input title="Smithing_Weapon-trained" type="checkbox" name="attr_Smithing_Weapon-trained" value="10" /></td>
+													    <td><input title="Smithing_Weapon-misc" type="text" name="attr_Smithing_Weapon-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Smithing_White-Check" type="roll" value="@{character_name}'s Smithing_White check: [[1d20 + @{Smithing_White}]]" name="roll_Smithing_White-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b></b></td>
+													    <td style="text-align: left">Smithing_White <select style="width: 60px;" name="attr_Smith_White_Attribute_Mod" title="Smith_White_Attribute_Mod">
+																					<option value="@{IntMod}" selected>Int</option>
+																					<option value="@{strMod}">Str</option></td>
+													    <td><input title="Smithing_White" type="text" name="attr_Smithing_White" value="(@{Smithing_White-ranks} + @{Smith_White_Attribute_Mod} + @{Smithing_White-trained} + @{Smithing_White-misc} + 30)" disabled></td>
+													    <td><input title="Smithing_White-ranks" type="number" name="attr_Smithing_White-ranks" value="0"></td>
+													    <td><input title="Smithing_White-trained" type="checkbox" name="attr_Smithing_White-trained" value="10" /></td>
+													    <td><input title="Smithing_White-misc" type="text" name="attr_Smithing_White-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Spellcraft-Check" type="roll" value="@{character_name}'s Spellcraft check: [[1d20 + @{Spellcraft}]]" name="roll_Spellcraft-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b>*</b></td>
+													    <td style="text-align: left">Spellcraft</td>
+													    <td><input title="Spellcraft" type="text" name="attr_Spellcraft" value="(@{Spellcraft-ranks} + @{IntMod} + @{Spellcraft-trained} + @{Spellcraft-misc} + 30)" disabled></td>
+													    <td><input title="Spellcraft-ranks" type="number" name="attr_Spellcraft-ranks" value="0"></td>
+													    <td><input title="Spellcraft-trained" type="checkbox" name="attr_Spellcraft-trained" value="10" /></td>
+													    <td><input title="Spellcraft-misc" type="text" name="attr_Spellcraft-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Stealth-Check" type="roll" value="@{character_name}'s Stealth check: [[1d20 + @{Stealth}]]" name="roll_Stealth-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b></b></td>
+													    <td style="text-align: left">Stealth</td>
+													    <td><input title="Stealth" type="text" name="attr_Stealth" value="(@{Stealth-ranks} + @{AgiMod} + @{Stealth-trained} + @{Stealth-misc} + 30)" disabled></td>
+													    <td><input title="Stealth-ranks" type="number" name="attr_Stealth-ranks" value="0"></td>
+													    <td><input title="Stealth-trained" type="checkbox" name="attr_Stealth-trained" value="10" /></td>
+													    <td><input title="Stealth-misc" type="text" name="attr_Stealth-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Survival-Check" type="roll" value="@{character_name}'s Survival check: [[1d20 + @{Survival}]]" name="roll_Survival-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b></b></td>
+													    <td style="text-align: left">Survival</td>
+													    <td><input title="Survival" type="text" name="attr_Survival" value="(@{Survival-ranks} + @{WitsMod} + @{Survival-trained} + @{Survival-misc} + 30)" disabled></td>
+													    <td><input title="Survival-ranks" type="number" name="attr_Survival-ranks" value="0"></td>
+													    <td><input title="Survival-trained" type="checkbox" name="attr_Survival-trained" value="10" /></td>
+													    <td><input title="Survival-misc" type="text" name="attr_Survival-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Swimming-Check" type="roll" value="@{character_name}'s Swimming check: [[1d20 + @{Swimming}]]" name="roll_Swimming-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b></b></td>
+													    <td style="text-align: left">Swimming</td>
+													    <td><input title="Swimming" type="text" name="attr_Swimming" value="(@{Swimming-ranks} + @{StaMod} + @{Swimming-trained} + @{Swimming-misc} + 30)" disabled></td>
+													    <td><input title="Swimming-ranks" type="number" name="attr_Swimming-ranks" value="0"></td>
+													    <td><input title="Swimming-trained" type="checkbox" name="attr_Swimming-trained" value="10" /></td>
+													    <td><input title="Swimming-misc" type="text" name="attr_Swimming-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="Trapcraft-Check" type="roll" value="@{character_name}'s Trapcraft check: [[1d20 + @{Trapcraft}]]" name="roll_Trapcraft-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b>*</b></td>
+													    <td style="text-align: left">Trapcraft</td>
+													    <td><input title="Trapcraft" type="text" name="attr_Trapcraft" value="(@{Trapcraft-ranks} + @{IntMod} + @{Trapcraft-trained} + @{Trapcraft-misc} + 30)" disabled></td>
+													    <td><input title="Trapcraft-ranks" type="number" name="attr_Trapcraft-ranks" value="0"></td>
+													    <td><input title="Trapcraft-trained" type="checkbox" name="attr_Trapcraft-trained" value="10" /></td>
+													    <td><input title="Trapcraft-misc" type="text" name="attr_Trapcraft-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="WeaponCraft_1-Check" type="roll" value="@{character_name}'s WeaponCraft_1 check: [[1d20 + @{WeaponCraft_1}]]" name="roll_WeaponCraft_1-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b></b></td>
+													    <td style="text-align: left">WeaponCraft<select style="width: 35px" name="attr_WCraft1_attribute_Mod" title="WCraft1_attribute_Mod">
+																					<option value="@{StrMod}" selected>Str</option>
+																					<option value="@{AgiMod}">Agi</option>
+																					<option value="@{PerMod}">Per</option>
+                        														</select>
+                        														<input style="width: 80px;" title="WeaponCraft-name1" type="text" name="attr_Craft_name1"></td>
+													    <td><input title="WeaponCraft_1" type="text" name="attr_WeaponCraft_1" value="(@{WeaponCraft_1-ranks} + @{WCraft1_attribute_Mod} + @{WeaponCraft_1-trained} + @{WeaponCraft_1-misc} + 30)" disabled></td>
+													    <td><input title="WeaponCraft_1-ranks" type="number" name="attr_WeaponCraft_1-ranks" value="0"></td>
+													    <td><input title="WeaponCraft_1-trained" type="checkbox" name="attr_WeaponCraft_1-trained" value="10" /></td>
+													    <td><input title="WeaponCraft_1-misc" type="text" name="attr_WeaponCraft_1-misc" value="0"></td>
+													</tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="WeaponCraft_Agi-Check" type="roll" value="@{character_name}'s WeaponCraft_Agi check: [[1d20 + @{WeaponCraft_Agi}]]" name="roll_WeaponCraft_Agi-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b></b></td>
+													    <td style="text-align: left">WeaponCraft<select style="width: 35px" name="attr_WCraft2_attribute_Mod" title="WCraft2_attribute_Mod">
+																					<option value="@{StrMod}" selected>Str</option>
+																					<option value="@{AgiMod}">Agi</option>
+																					<option value="@{PerMod}">Per</option>
+                        														</select>
+                        														<input style="width: 80px;" title="WeaponCraft-name2" type="text" name="attr_Craft_name2"></td>
+													    <td><input title="WeaponCraft_Agi" type="text" name="attr_WeaponCraft_2" value="(@{WeaponCraft_Agi-ranks} + @{WCraft2_attribute_Mod} + @{WeaponCraft_Agi-trained} + @{WeaponCraft_Agi-misc} + 30)" disabled></td>
+													    <td><input title="WeaponCraft_Agi-ranks" type="number" name="attr_WeaponCraft_Agi-ranks" value="0"></td>
+													    <td><input title="WeaponCraft_Agi-trained" type="checkbox" name="attr_WeaponCraft_Agi-trained" value="10" /></td>
+													    <td><input title="WeaponCraft_Agi-misc" type="text" name="attr_WeaponCraft_Agi-misc" value="0"></td>
+                                                    </tr>
+                                                    <tr>
+													    <td><button style="font-size:100%;" title="WeaponCraft_Per-Check" type="roll" value="@{character_name}'s WeaponCraft_Per check: [[1d20 + @{WeaponCraft_Per}]]" name="roll_WeaponCraft_Per-Check"></button></td>
+													    <td></td>
+													    <td style="font-size: 1.5em"><b></b></td>
+													    <td style="text-align: left">WeaponCraft<select style="width: 35px" name="attr_WCraft3_attribute_Mod" title="WCraft3_attribute_Mod">
+																					<option value="@{StrMod}" selected>Str</option>
+																					<option value="@{AgiMod}">Agi</option>
+																					<option value="@{PerMod}">Per</option>
+                        														</select>
+                        														<input style="width: 80px;" title="WeaponCraft-name3" type="text" name="attr_Craft_name3"></td>
+													    <td><input title="WeaponCraft_Per" type="text" name="attr_WeaponCraft_3" value="(@{WeaponCraft_Per-ranks} + @{WCraft3_attribute_Mod} + @{WeaponCraft_Per-trained} + @{WeaponCraft_Per-misc} + 30)" disabled></td>
+													    <td><input title="WeaponCraft_Per-ranks" type="number" name="attr_WeaponCraft_Per-ranks" value="0"></td>
+													    <td><input title="WeaponCraft_Per-trained" type="checkbox" name="attr_WeaponCraft_Per-trained" value="10" /></td>
+													    <td><input title="WeaponCraft_Per-misc" type="text" name="attr_WeaponCraft_Per-misc" value="0"></td>
+                                                    </tr>
+
+
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table style="width: 44%;float: right;">
+                                        <td colspan="3">
+                                            <tr>
+                                                <td class="sheet-label" colspan="3">Feats and Special Abilities</td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="text" name="attr_feat1" title="feat1" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                                <td style="width: 5px;"></td>
+                                                <td><input type="text" name="attr_feat2" title="feat2"style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="text" name="attr_feat3" title="feat3"style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                                <td style="width: 5px;"></td>
+                                                <td><input type="text" name="attr_feat4" title="feat4" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="text" name="attr_feat5" title="feat5" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                                <td style="width: 5px;"></td>
+                                                <td><input type="text" name="attr_feat6" title="feat6" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="text" name="attr_feat7" title="feat7" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                                <td style="width: 5px;"></td>
+                                                <td><input type="text" name="attr_feat8" title="feat8" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="text" name="attr_feat9" title="feat9" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                                <td style="width: 5px;"></td>
+                                                <td><input type="text" name="attr_feat10" title="feat10" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="text" name="attr_feat11" title="feat11" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                                <td style="width: 5px;"></td>
+                                                <td><input type="text" name="attr_feat12" title="feat12" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="text" name="attr_feat13" title="feat13" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                                <td style="width: 5px;"></td>
+                                                <td><input type="text" name="attr_feat14" title="feat14" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="text" name="attr_feat15" title="feat15" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                                <td style="width: 5px;"></td>
+                                                <td><input type="text" name="attr_feat16" title="feat16" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="text" name="attr_feat17" title="feat17" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                                <td style="width: 5px;"></td>
+                                                <td><input type="text" name="attr_feat18" title="feat18" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="text" name="attr_feat19" title="feat19" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                                <td style="width: 5px;"></td>
+                                                <td><input type="text" name="attr_feat20" title="feat20" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="text" name="attr_feat21" title="feat21" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                                <td style="width: 5px;"></td>
+                                                <td><input type="text" name="attr_feat22" title="feat22" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="text" name="attr_feat23" title="feat23" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                                <td style="width: 5px;"></td>
+                                                <td><input type="text" name="attr_feat24" title="feat24" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="text" name="attr_feat25" title="feat25" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                                <td style="width: 5px;"></td>
+                                                <td><input type="text" name="attr_feat26" title="feat26" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="text" name="attr_feat72" title="feat27" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                                <td style="width: 5px;"></td>
+                                                <td><input name="attr_feat28" title="feat28" type="text" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="text" name="attr_feat29" title="feat29" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                                <td style="width: 5px;"></td>
+                                                <td><input type="text" name="attr_feat30" title="feat30" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="text" name="attr_feat31" title="feat31" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                                <td style="width: 5px;"></td>
+                                                <td><input type="text" name="attr_feat32" title="feat32" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="text" name="attr_feat33" title="feat33" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                                <td style="width: 5px;"></td>
+                                                <td><input type="text" name="attr_feat34" title="feat34" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="text" name="attr_feat35" title="feat35" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                                <td style="width: 5px;"></td>
+                                                <td><input type="text" name="attr_feat36" title="feat36" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="text" name="attr_feat37" title="feat37" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                                <td style="width: 5px;"></td>
+                                                <td><input type="text" name="attr_feat38" title="feat38" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="text" name="attr_feat39" title="feat39" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                                <td style="width: 5px;"></td>
+                                                <td><input type="text" name="attr_feat40" title="feat40" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="text" name="attr_feat41" title="feat41" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                                <td style="width: 5px;"></td>
+                                                <td><input type="text" name="attr_feat42" title="feat42" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="text" name="attr_feat43" title="feat43" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                                <td style="width: 5px;"></td>
+                                                <td><input type="text" name="attr_feat44" title="feat44" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="text" name="attr_feat45" title="feat45" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                                <td style="width: 5px;"></td>
+                                                <td><input type="text" name="attr_feat46" title="feat46" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="text" name="attr_feat47" title="feat47" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                                <td style="width: 5px;"></td>
+                                                <td><input type="text" name="attr_feat48" title="feat48" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="text" name="attr_feat49" title="feat49" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                                <td style="width: 5px;"></td>
+                                                <td><input type="text" name="attr_feat50" title="feat50" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="text" name="attr_feat51" title="feat51" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                                <td style="width: 5px;"></td>
+                                                <td><input type="text" name="attr_feat52" title="feat52" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="text" name="attr_feat53" title="feat53" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                                <td style="width: 5px;"></td>
+                                                <td><input type="text" name="attr_feat54" title="feat54" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="text" name="attr_feat55" title="feat55" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                                <td style="width: 5px;"></td>
+                                                <td><input type="text" name="attr_feat56" title="feat56" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="text" name="attr_feat57" title="feat57"style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                                <td style="width: 5px;"></td>
+                                                <td><input type="text" name="attr_feat58" title="feat58" style="font-size: .9em;height: 20px;text-align: left;"></td>
+                                            </tr>
+                                        </td>
+                                    </table>
+                                    <table colspan="5" style="width: 368px;float: right;">
+                                        <tr>
+                                            <td class="sheet-label" colspan="5">Other Possessions</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-size: .75em;">Item</td>
+                                            <td style="width: 5px;"></td>
+                                            <td style="font-size: .75em;width: 50px;">Weight</td>
+                                            <td style="width: 5px;"></td>
+                                            <td style="font-size: .75em;width: 50px;">Loc</td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item1" title="item1" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt1" title="itemwt1" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item1loc" title="item1loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item2" title="item2" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt2" title="itemwt2" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item2loc" title="item2loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item3" title="item3" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt3" title="itemwt3" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item3loc" title="item3loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item4" title="item4" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt4" title="itemwt4" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item4loc" title="item4loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item5" title="item5" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt5" title="itemwt5" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item5loc" title="item5loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item6" title="item6" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt6" title="itemwt6" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item6loc" title="item6loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item7" title="item7" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt7" title="itemwt7" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item7loc" title="item7loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item8" title="item8" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt8" title="itemwt8" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item8loc" title="item8loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item9" title="item9" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt9" title="itemwt9" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item9loc" title="item0loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item10" title="item10" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt10" title="itemwt10" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item10loc" title="item10loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item11" title="item11" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt11" title="itemwt11" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item11loc" title="item11loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item12" title="item12" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt12" title="itemwt12" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item12loc" title="item12loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item13" title="item13" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt13" title="itemw13" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item13loc" title="item13loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item14" title="item14" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt14" title="itemwt14" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item14loc" title="item14loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item15" title="item15" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt15" title="itemwt15" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item15loc" title="item15loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item16" title="item16" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt16" title="itemwt16" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item16loc" title="item16loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item17" title="item17" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt17" title="itemwt17" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item17loc" title="item17loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item18" title="item18" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt18" title="itemwt18" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item18loc" title="item18loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item19" title="item19" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt19" title="itemwt19" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item19loc" title="item19loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item20" title="item20" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt20" title="itemwt20" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item20loc" title="item20loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item21" title="item21" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt21" title="itemwt21" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item21loc" title="item21loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item22" title="item22" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt22" title="itemwt22" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item22loc" title="item22loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item23" title="item23" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt23" title="itemwt23" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item23loc" title="item23loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item24" title="item24" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt24" title="itemwt24" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item24loc" title="item24loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item25" title="item25" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt25" title="itemwt25" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item25loc" title="item25loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item26" title="item26" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt26" title="itemwt26" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item26loc" title="item26loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item27" title="item27" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt27" title="itemwt27" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item27loc" title="item27loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item28" title="item28" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt28" title="itemwt28" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item28loc" title="item28loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item29" title="item29" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt29" title="itemwt29" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item29loc" title="item29loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item30" title="item30" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt30" title="itemwt30" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item30loc" title="item30loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item31" title="item31" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt31" title="itemwt31" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item31loc" title="item31loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item32" title="item32" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt32" title="itemwt32" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item32loc" title="item32loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item33" title="item33" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt33" title="itemwt33" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item33loc" title="item33loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item34" title="item34" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt34" title="itemwt34" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item34loc" title="item34loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item35" title="item35" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt35" title="itemwt35" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item35loc" title="item35loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item36" title="item36" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt36" title="itemwt36" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item36loc" title="item36loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item37" title="item37" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt37" title="itemwt37" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item37loc" title="item37loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" name="attr_item38" title="item38" style="font-size: .9em; height: 20px;text-align: left;"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" style="font-size: .9em; height: 20px;" name="attr_itemwt38" title="itemwt38" value="0"></td>
+                                            <td style="width: 5px;"></td>
+                                            <td><input type="text" name="attr_item38loc" title="item38loc" style="font-size: .9em; height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" style="padding-top: 10px;">Total Weight (Items/Coins)</td>
+                                            <td colspan="3" style="text-align:left;"><input style="width:5em; type="text" name="attr_invwt" title="invwt" value="( @{itemwt1}+@{itemwt2}+@{itemwt3}+@{itemwt4}+@{itemwt5}+@{itemwt6}+@{itemwt7}+@{itemwt8}+@{itemwt9}+@{itemwt10}+@{itemwt11}+@{itemwt12}+@{itemwt13}+@{itemwt14}+@{itemwt15}+@{itemwt16}+@{itemwt17}+@{itemwt18}+@{itemwt19}+@{itemwt20}+@{itemwt21}+@{itemwt22}+@{itemwt23}+@{itemwt24}+@{itemwt25}+@{itemwt26}+@{itemwt27}+@{itemwt28}+@{itemwt29}+@{itemwt30}+@{itemwt31}+@{itemwt32}+@{itemwt33}+@{itemwt34}+@{itemwt35}+@{itemwt36}+@{itemwt37}+@{itemwt38}+( ceil(@{gp_carried}+@{pp_carried}+@{cp_carried}+@{sp_carried})*.02) )" disabled>lbs.</td>
+                                            </td>
+                                        </tr>
+                                    </table>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+</div>
+
+<b>Show Character Information (Wealth, Languages, Description, etc)?</b>
+<input type="checkbox" class="sheet-pc-character-show" title="sheet-pc-character-show" name="attr_sheet-pc-character-show" value="1" style="opacity:1;width: 16px;height: 16px;position: relative;top: 0px;left: 0px;margin: 0px;cursor: pointer;z-index: 1;" checked/><span></span>
+<div class="sheet-pc-character">
+    <table style="width: 828px;">
+        <tr>
+            <td colspan="2"></td>
+                <table style="width: 49%;float: left;">
+                    <tr>
+                        <td colspan="5" style="sheet-label; width: 50%;">Carried Currency</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="attr_cp_carried" title="cp" value="0"></td>
+                        <td><input type="text" name="attr_sp_carried" title="sp" value="0"></td>
+                        <td><input type="text" name="attr_gp_carried" title="gp" value="0"></td>
+                        <td><input type="text" name="attr_pp_carried" title="pp" value="0"></td>
+                        <td><input type="text" name="attr_wealth" title="wealth" value="( @{gp_carried}+(@{pp_carried}*10)+(@{cp_carried}*.01)+(@{sp_carried}*.1) )" disabled></td>
+                    </tr>
+                    <tr>
+                        <td style="font-size: .75em;">Copper</td>
+                        <td style="font-size: .75em;">Silver</td>
+                        <td style="font-size: .75em;">Gold</td>
+                        <td style="font-size: .75em;">Platinum</td>
+                        <td style="font-size: .75em;">Total GP</td>
+                    </tr>
+                </table>
+				<table style="width: 49%;float: right;">
+                    <tr>
+                        <td colspan="5" style="sheet-label; width: 50%;">Total Currency</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="attr_cp" title="cp" value="0"></td>
+                        <td><input type="text" name="attr_sp" title="sp" value="0"></td>
+                        <td><input type="text" name="attr_gp" title="gp" value="0"></td>
+                        <td><input type="text" name="attr_pp" title="pp" value="0"></td>
+                        <td><input type="text" name="attr_wealth" title="wealth" value="( @{gp}+(@{pp}*10)+(@{cp}*.01)+(@{sp}*.1) )" disabled></td>
+                    </tr>
+                    <tr>
+                        <td style="font-size: .75em;">Copper</td>
+                        <td style="font-size: .75em;">Silver</td>
+                        <td style="font-size: .75em;">Gold</td>
+                        <td style="font-size: .75em;">Platinum</td>
+                        <td style="font-size: .75em;">Total GP</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+		<tr>
+			<td colspan="2">
+				<table style="width: 99.65%;">
+                    <tr>
+                        <td style="sheet-label; width: 50%;">Languages</td>
+                    </tr>
+                    <tr>
+                        <td><textarea name="attr_languages" title="languages" style="width: 100%, height: 7.5em;text-align: left;"></textarea></td>
+                    </tr>
+                </table>
+			</td>
+		</tr>
+    </table>
+    <table style="width: 828px;">
+        <tr>
+            <td>
+                <div style="float: left; width: 49%;">Description<br />
+                    <textarea  name="attr__description" title="description" style="width: 100%; height: 7.5em;text-align: left;" class="bordered"></textarea>
+                </div>
+                <div style="float: right; width: 49%;">Personality<br />
+                    <textarea  name="attr__personality" title="personality" style="width: 100%; height: 7.5em;text-align: left;" class="bordered"></textarea>
+                </div>
+                <div style="float: left; width: 49%;">Character Traits<br />
+                    <textarea  name="attr__traits" title="traits" style="width: 100%; height: 7.5em;text-align: left;" class="bordered"></textarea>
+                </div>
+                <div style="float: right; width: 49%;">Character Flaws<br />
+                    <textarea  name="attr_flaws" title="flaws" style="width: 100%; height: 7.5em;text-align: left;" class="bordered"></textarea>
+                </div>
+                <div style="float: left; width: 49%;">Contacts / Friends<br />
+                    <textarea  name="attr_contacts" title="contacts" style="width: 100%; height: 7.5em;text-align: left;" class="bordered"></textarea>
+                </div>
+                <div style="float: right; width: 49%;">Enemies<br />
+                    <textarea  name="attr_enemies" title="enemies" style="width: 100%; height: 7.5em;text-align: left;" class="bordered"></textarea>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <table style="width: 828px;">
+        <tr>
+            <td>Other Notes</td>
+        </tr>
+        <tr>
+            <td><textarea  name="attr_othernotes" title="othernotes" style="width: 100%; height: 10em;text-align: left;" class="bordered"></textarea></td>
+        </tr>
+    </table>
+</div>
+
+<script type="text/worker">
+
+var Sheet = Sheet || (function(){
+
+	var version= 0.1,
+	Debug = false,
+
+
+/* recalculateSheet */
+	recalculateSheet = function(oldversion) {
+		if (oldversion < 0.1) {
+		updateHP();
+		}
+	},
+
+/* checkForUpdate looks at current version of page in
+ * Sheet_Version and compares to code Sheet.version calls
+ * recalulateSheet if versions don't match or if recalculate
+ * button was pressed. */
+	checkForUpdate = function(){
+		getAttrs(["Sheet_Version","Sheet_forcesync","recalc1"],function(v){
+			var setter={},currVer=0,setAny=0,recalc=false;
+			currVer=parseFloat(v["Sheet_Version"],10)||0;
+			console.log("Current sheet data version:"+currVer+", Sheet code version:" + version );
+
+			if ( currVer!== version ) {
+				recalc=true;
+				setter["Sheet_Version"]= version;
+				setAny=1;
+			}
+			if (v["recalc1"] && v["recalc1"]!="0" ) {
+				currVer=-1;
+				recalc=true;
+				setter["recalc1"]=0;
+				setAny=1;
+			}
+			if (v["Sheet_forcesync"] && v["Sheet_forcesync"]!="0" ) {
+				currVer=-1;
+				recalc=true;
+				setter["Sheet_forcesync"]=0;
+				setAny=1;
+			}
+			if (setAny) {
+				 setAttrs( setter);
+			}
+			if (recalc) {
+				recalculateSheet(currVer);
+			}
+		});
+	};
+	return {
+		version:version,
+		checkForUpdate:checkForUpdate,
+		updateHP:updateHP
+	};
+}());
+
+//Sync HP|max with HPCurrent_max
+on("change:hpcurrent_max",function(){
+	getAttrs(["HPCurrent_max","HP|max"], function(values){
+		var HPCurrent_max=(parseInt(values["HPCurrent_max"],10));
+		setAttrs({"HP|max": HPCurrent_max},{}, function(){
+			getAttrs(["HPCurrent_max", "HP|max"], function(values) {
+				console.log("....HPCurrent_max = " + HPCurrent_max);
+				console.log("...........HP|max = " + (parseInt(values["HP|max"],10)) );
+			});
+		});
+	});
+});
+
+//sheet
+on("sheet:opened",function(){Sheet.checkForUpdate();});
+on("change:recalc1",function(){Sheet.checkForUpdate();});
+
+
+function rollSkill(skillNum)
+{
+  /em roll 1dskillNum
+}
+
+
+</script>
